@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="LYS">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Removed="True" />
+      <Item Id="KPI" Removed="True" />
+      <Item Id="Menu" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Pazarlama Yönetimi" Index="0" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="Bids" ViewId="Bid_ListView" Caption="Teklifler" IsNewNode="True" />
+              <Item Id="Interviews" ObjectKey="" ViewId="Interview_ListView" Caption="Görüşmeler" IsNewNode="True" />
+            </Items>
+          </Item>
+          <Item Id="Pozisyon Yönetimi" Index="1" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="@56a56951-6746-416e-a7f1-6873ee3b5783" ViewId="Position_ListView" Caption="Pozisyonlar" Index="0" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="@95163611-354e-44db-a796-5587a30444c5" ViewId="Position_Landway" IsNewNode="True" />
+                  <Item Id="@e025cd08-9f0b-40e0-b6c5-bec88a899b78" ViewId="Position_Seaway" IsNewNode="True" />
+                </Items>
+              </Item>
+              <Item Id="@99a14f6d-f127-49ad-b2d5-0268ff626c15" Index="1" Caption="Birimler" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="@485be4ee-1e49-4820-9353-4b56b2967af7" Caption="Kişiler" ViewId="Employee_ListView" ImageName="Employees" Index="0" IsNewNode="True" />
+                  <Item Id="@b0642eaf-f772-4589-8c57-658189d27212" ViewId="Company_ListView" ImageName="BO_Organization" Caption="Firmalar" Index="1" IsNewNode="True" />
+                  <Item Id="@9461cd9e-799f-40b2-953b-2ada6f471645" ViewId="Truck_ListView" Caption="Tırlar" ImageName="Shopping_Delivery" Index="2" IsNewNode="True" />
+                  <Item Id="@fa3eb60d-d693-40c7-80ce-bc261c6db573" Index="3" ViewId="Vessel_ListView" Caption="Gemiler" ImageName="Travel_Ship" IsNewNode="True" />
+                  <Item Id="@6cbc50b3-2b03-4a2e-b4eb-dda316cee8cc" ViewId="Good_ListView" Caption="Yükler" ImageName="BO_Product" Index="4" IsNewNode="True" />
+                  <Item Id="@947e81e1-48c7-4116-b7cc-2dc1f367e07e" ViewId="LoadingUnit_ListView" ImageName="BO_Order" Caption="Yükleme Üniteleri" IsNewNode="True" />
+                </Items>
+              </Item>
+              <Item Id="@a26ad30f-dcf4-4803-9df8-e89a9c6d3206" Caption="Parametreler" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="@e332186a-4437-4f58-805a-35699a41508e" ViewId="ShippingServiceCode_ListView" Caption="Nakliye Hizmet Kodları" Index="0" IsNewNode="True" />
+                  <Item Id="@d2c77bde-2029-4913-a717-7daecde4e7b9" ViewId="ShippingTerm_ListView" Caption="Nakliye Terimleri" Index="1" IsNewNode="True" />
+                  <Item Id="@85503c37-9a04-4b60-99d6-66fda0ff9ab2" ViewId="PaymentType_ListView" Caption="Ödeme Şekilleri" Index="2" IsNewNode="True" />
+                  <Item Id="@57bbfe75-e0f7-480c-a4ca-525c34336f28" ViewId="FreightPaymentType_ListView" Caption="Navlun Ödeme Şekilleri" Index="3" IsNewNode="True" />
+                  <Item Id="@381345f3-b5a6-4524-914c-696175882fa8" Caption="Taşıyıcı Tipleri" ViewId="ContainerType_ListView" Index="4" IsNewNode="True" />
+                  <Item Id="@36ce503b-07e8-429d-ad44-ccf312e4d01e" ViewId="Container_ListView" Caption="Taşıyıcılar" Index="5" IsNewNode="True" />
+                  <Item Id="@d39613d4-9fe1-457a-b638-34852a884bf4" ViewId="GoodType_ListView" Caption="Yük Tipleri" Index="6" IsNewNode="True" />
+                  <Item Id="@0fae9b0f-a5be-4a74-aae0-2ba3081aba13" ViewId="LoadingType_ListView" Caption="Dolum Yerleri" Index="7" IsNewNode="True" />
+                  <Item Id="@8ae3f765-0642-4016-a891-22384b51e174" ViewId="CustomOffice_ListView" Caption="Gümrükler" Index="8" IsNewNode="True" />
+                  <Item Id="@bd748d8c-6b2d-431e-b429-e131a8840317" Index="9" ViewId="DeliveryType_ListView" Caption="Teslim Türleri" IsNewNode="True" />
+                  <Item Id="@a8a672be-4c94-4732-ad39-02dd8de70194" Index="10" ViewId="DeclarationType_ListView" Caption="Beyan Tipleri" IsNewNode="True" />
+                  <Item Id="@9087bf3e-a25d-48b3-8125-2fc73d17291d" Index="11" ViewId="InterviewCheck_ListView" Caption="Görüşme Kontrol Listesi" IsNewNode="True" />
+                  <Item Id="@41b40485-ab09-407a-8e65-944067e9e5a5" Index="12" ViewId="Action_ListView" Caption="Aksiyon Listesi" IsNewNode="True" />
+                  <Item Id="@af1658e9-3fa0-4e33-b5e6-de63fa89b011" Index="13" ViewId="Sector_ListView" Caption="Sektör Listesi" IsNewNode="True" />
+                  <Item Id="@e67138b4-eefb-4a9a-b205-454ce2aacc74" Index="14" ViewId="InterviewSource_ListView" Caption="Görüşme Kaynağı Listesi" IsNewNode="True" />
+                  <Item Id="@8268c5af-aebe-4c72-b563-e40c4367d2ec" Index="15" ViewId="CustomerClass_ListView" Caption="Müşteri Sınıfları" IsNewNode="True" />
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+          <Item Id="@6868a57a-3f12-495f-a26d-8daac4c6c6a2" Caption="Veri Yönetimi" Index="2" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="@e4fd795d-b8d2-4077-a154-138aa021bc72" ViewId="Country_ListView" Caption="Ülkeler" Index="0" IsNewNode="True" />
+              <Item Id="@c6e76afc-16be-4c28-81bf-69a186cb3dcd" ViewId="Location_ListView" Caption="Bölgeler" Index="1" IsNewNode="True" />
+              <Item Id="@decce392-27fd-4e96-ac63-4ccd716f5173" ViewId="Port_ListView" Caption="Limanlar" IsNewNode="True" />
+            </Items>
+          </Item>
+          <Item Id="@9a3ea3de-e5b6-4a28-8172-74361b5bbc43" Caption="Finans Yönetimi" Index="3" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="@58d04edb-0148-481c-a959-169d343e1fb2" ViewId="Bill_ListView" Caption="Faturalar" Index="0" IsNewNode="True" />
+              <Item Id="@ca2e3937-b0c0-410f-b344-93fabcc4ac0b" Caption="Parametreler" Index="1" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="@0ddfe78a-2b7c-4045-99a5-57db8a0ad7ce" ViewId="Currency_ListView" Caption="Para Birimleri" Index="0" IsNewNode="True" />
+                  <Item Id="@a04eff71-7aef-4197-89e4-a91f3c595c21" ViewId="ExpenseType_ListView" Caption="Gelir/Gider Türleri" Index="1" IsNewNode="True" />
+                </Items>
+              </Item>
+              <Item Id="@de27835e-65c8-45be-ba6d-6d7b6b28a8cb" Caption="Bilanço" Index="2" IsNewNode="True" />
+              <Item Id="@0d9b92b3-8730-46d3-934a-3f8f83c71002" Caption="Raporlar" Index="4" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="@790b997e-dd97-4679-9753-c36c52d876ed" Index="0" Caption="Genel Rapor" IsNewNode="True" />
+                  <Item Id="@e8a65db4-fec1-470d-968f-c32145172697" Caption="Gider Raporu" Index="1" IsNewNode="True" />
+                  <Item Id="@a2db2b2e-128a-4744-8f38-d973000ca0ec" Caption="Gelir Raporu" Index="2" IsNewNode="True" />
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+          <Item Id="@a60dc1ea-a4bf-4f97-975f-61430553596d" Caption="Kullanıcı Yönetimi" Index="4" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="@930ec5a9-da6c-4b19-95fc-14d21983080d" ViewId="Department_ListView" Caption="Departmanlar" Index="0" IsNewNode="True" />
+              <Item Id="@19a2ddd0-3a8e-4d8d-bfd0-bee621a2b229" ViewId="Employee_ListView" Caption="Çalışanlar" Index="1" IsNewNode="True" />
+              <Item Id="@77da31f5-aca4-4aeb-9494-9ea4ed73d9cf" Caption="Kullanıcı Yetkileri" Index="2" IsNewNode="True" />
+              <Item Id="@6063267e-f4de-427a-8868-f0b1a436e56a" Caption="Yetkilendirme" IsNewNode="True" />
+            </Items>
+          </Item>
+          <Item Id="@4f6a5da9-8b93-49a2-ad12-3c6a1f8f73bb" Caption="Sistem Yönetimi" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="@9c9708d5-bdbf-48de-9614-21b86c14cd07" ViewId="Log_ListView" Caption="Sistem Günlükleri" Index="0" IsNewNode="True" />
+              <Item Id="@f843445e-732b-4f5d-aa74-e3fa38ae0b7a" ViewId="MailTemplate_ListView" Caption="Taslak E-Postalar" Index="1" IsNewNode="True" />
+              <Item Id="@c4844a1b-3655-471d-a42f-9e91afe0ec70" Caption="E-Posta Gönderme" IsNewNode="True" />
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+      <Item Id="Reports" Removed="True" />
+      <Item Id="State Machine" Removed="True" />
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="20.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="20.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="20.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Position_Airway" ClassName="LYS.Module.BusinessObjects.Position" Caption="Denizyolu" Criteria="[TransportationType] = ##Enum#LYS.Module.BusinessObjects.TransportationTypes,Airway#" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="AtrNo" PropertyName="AtrNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="BookingNo" PropertyName="BookingNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="ContractNo" PropertyName="ContractNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Details" PropertyName="Details" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Ex1" PropertyName="Ex1" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Files" PropertyName="Files" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FolderNumber" PropertyName="FolderNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FreightChargersRatePer" PropertyName="FreightChargersRatePer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraDocVer" PropertyName="InttraDocVer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSı" PropertyName="InttraSı" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSiComm" PropertyName="InttraSiComm" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MainVesselVoyageNo" PropertyName="MainVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MissingInfo" PropertyName="MissingInfo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Notes" PropertyName="Notes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Oid" PropertyName="Oid" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationNumber" PropertyName="OperationNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationType" PropertyName="OperationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Password" PropertyName="Password" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="PlateNumber" PropertyName="PlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="RoroPlateNumber" PropertyName="RoroPlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="SupplierContractNotes" PropertyName="SupplierContractNotes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransitVesselVoyageNo" PropertyName="TransitVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransportationType" PropertyName="TransportationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="VehiclePlateNumber" PropertyName="VehiclePlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Bid" PropertyName="Bid" Width="70" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="FolderType" PropertyName="FolderType" Width="70" Index="1" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomOffice" PropertyName="DepartureCustomOffice" Width="70" Index="2" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomOffice" PropertyName="ArrivalCustomOffice" Width="70" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="ShippingTerm" PropertyName="ShippingTerm" Width="70" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="FreightPaymentType" PropertyName="FreightPaymentType" Width="70" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="IsTransit" PropertyName="IsTransit" Width="70" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="LoadingType" PropertyName="LoadingType" Width="70" Index="7" IsNewNode="True" />
+        <ColumnInfo Id="GoodType" PropertyName="GoodType" Width="70" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="ShippingServiceCode" PropertyName="ShippingServiceCode" Width="70" Index="9" IsNewNode="True" />
+        <ColumnInfo Id="DeclarationType" PropertyName="DeclarationType" Width="70" Index="10" IsNewNode="True" />
+        <ColumnInfo Id="ShipperCompany" PropertyName="ShipperCompany" Width="70" Index="11" IsNewNode="True" />
+        <ColumnInfo Id="ConsigneeCompany" PropertyName="ConsigneeCompany" Width="70" Index="12" IsNewNode="True" />
+        <ColumnInfo Id="ContractCompany" PropertyName="ContractCompany" Width="70" Index="13" IsNewNode="True" />
+        <ColumnInfo Id="NationalShippingCompany" PropertyName="NationalShippingCompany" Width="70" Index="14" IsNewNode="True" />
+        <ColumnInfo Id="ShippingLineCompany" PropertyName="ShippingLineCompany" Width="70" Index="15" IsNewNode="True" />
+        <ColumnInfo Id="ShippingAgencyCompany" PropertyName="ShippingAgencyCompany" Width="70" Index="16" IsNewNode="True" />
+        <ColumnInfo Id="AbroadAgencyCompany" PropertyName="AbroadAgencyCompany" Width="70" Index="17" IsNewNode="True" />
+        <ColumnInfo Id="BillingCompany" PropertyName="BillingCompany" Width="70" Index="18" IsNewNode="True" />
+        <ColumnInfo Id="RezervationCompany" PropertyName="RezervationCompany" Width="70" Index="19" IsNewNode="True" />
+        <ColumnInfo Id="SupplierCompany" PropertyName="SupplierCompany" Width="70" Index="20" IsNewNode="True" />
+        <ColumnInfo Id="OperationDate" PropertyName="OperationDate" Width="70" Index="21" IsNewNode="True" />
+        <ColumnInfo Id="NumberofOriginalFBL" PropertyName="NumberofOriginalFBL" Width="70" Index="22" IsNewNode="True" />
+        <ColumnInfo Id="NumberofCopyFBL" PropertyName="NumberofCopyFBL" Width="70" Index="23" IsNewNode="True" />
+        <ColumnInfo Id="DepartureLocation" PropertyName="DepartureLocation" Width="70" Index="24" IsNewNode="True" />
+        <ColumnInfo Id="LoadingPort" PropertyName="LoadingPort" Width="70" Index="25" IsNewNode="True" />
+        <ColumnInfo Id="TransferLocation" PropertyName="TransferLocation" Width="70" Index="26" IsNewNode="True" />
+        <ColumnInfo Id="LoadingCompany" PropertyName="LoadingCompany" Width="70" Index="27" IsNewNode="True" />
+        <ColumnInfo Id="LoadingDate" PropertyName="LoadingDate" Width="70" Index="28" IsNewNode="True" />
+        <ColumnInfo Id="TransferPort" PropertyName="TransferPort" Width="70" Index="29" IsNewNode="True" />
+        <ColumnInfo Id="TransferDate" PropertyName="TransferDate" Width="70" Index="30" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalLocation" PropertyName="ArrivalLocation" Width="70" Index="31" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryType" PropertyName="DeliveryType" Width="70" Index="32" IsNewNode="True" />
+        <ColumnInfo Id="SupplierPaymentType" PropertyName="SupplierPaymentType" Width="70" Index="33" IsNewNode="True" />
+        <ColumnInfo Id="PaymentType" PropertyName="PaymentType" Width="70" Index="34" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceLocation" PropertyName="AcceptanceLocation" Width="70" Index="35" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryCompany" PropertyName="DeliveryCompany" Width="70" Index="36" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedDepartureDate" PropertyName="EstimatedDepartureDate" Width="70" Index="37" IsNewNode="True" />
+        <ColumnInfo Id="DepartureDate" PropertyName="DepartureDate" Width="70" Index="38" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceDate" PropertyName="AcceptanceDate" Width="70" Index="39" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryDate" PropertyName="DeliveryDate" Width="70" Index="40" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedArrivalDate" PropertyName="EstimatedArrivalDate" Width="70" Index="41" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalDate" PropertyName="ArrivalDate" Width="70" Index="42" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedTransferTime" PropertyName="EstimatedTransferTime" Width="70" Index="43" IsNewNode="True" />
+        <ColumnInfo Id="TransitTime" PropertyName="TransitTime" Width="70" Index="44" IsNewNode="True" />
+        <ColumnInfo Id="CustomerRepresentative" PropertyName="CustomerRepresentative" Width="70" Index="45" IsNewNode="True" />
+        <ColumnInfo Id="SalesRepresentative" PropertyName="SalesRepresentative" Width="70" Index="46" IsNewNode="True" />
+        <ColumnInfo Id="PreCarriageCompany" PropertyName="PreCarriageCompany" Width="70" Index="47" IsNewNode="True" />
+        <ColumnInfo Id="PlaceofReceiptLocation" PropertyName="PlaceofReceiptLocation" Width="70" Index="48" IsNewNode="True" />
+        <ColumnInfo Id="FolderPublishLocation" PropertyName="FolderPublishLocation" Width="70" Index="49" IsNewNode="True" />
+        <ColumnInfo Id="MainVessel" PropertyName="MainVessel" Width="70" Index="50" IsNewNode="True" />
+        <ColumnInfo Id="TransitVessel" PropertyName="TransitVessel" Width="70" Index="51" IsNewNode="True" />
+        <ColumnInfo Id="DischargePort" PropertyName="DischargePort" Width="70" Index="52" IsNewNode="True" />
+        <ColumnInfo Id="NotifyCompany" PropertyName="NotifyCompany" Width="70" Index="53" IsNewNode="True" />
+        <ColumnInfo Id="IsOpen" PropertyName="IsOpen" Width="50" Index="54" IsNewNode="True" />
+        <ColumnInfo Id="IsMissing" PropertyName="IsMissing" Width="50" Index="55" IsNewNode="True" />
+        <ColumnInfo Id="MainTruck" PropertyName="MainTruck" Width="70" Index="56" IsNewNode="True" />
+        <ColumnInfo Id="TransitTruck" PropertyName="TransitTruck" Width="70" Index="57" IsNewNode="True" />
+        <ColumnInfo Id="MainDriver" PropertyName="MainDriver" Width="70" Index="58" IsNewNode="True" />
+        <ColumnInfo Id="TransitDriver" PropertyName="TransitDriver" Width="70" Index="59" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomCompany" PropertyName="DepartureCustomCompany" Width="70" Index="60" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomCompany" PropertyName="ArrivalCustomCompany" Width="70" Index="61" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Position_Landway" ClassName="LYS.Module.BusinessObjects.Position" Caption="Karayolu" Criteria="[TransportationType] = ##Enum#LYS.Module.BusinessObjects.TransportationTypes,Landway#" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="AtrNo" PropertyName="AtrNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="BookingNo" PropertyName="BookingNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="ContractNo" PropertyName="ContractNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Details" PropertyName="Details" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Ex1" PropertyName="Ex1" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Files" PropertyName="Files" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FolderNumber" PropertyName="FolderNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FreightChargersRatePer" PropertyName="FreightChargersRatePer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraDocVer" PropertyName="InttraDocVer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSı" PropertyName="InttraSı" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSiComm" PropertyName="InttraSiComm" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MainVesselVoyageNo" PropertyName="MainVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MissingInfo" PropertyName="MissingInfo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Notes" PropertyName="Notes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Oid" PropertyName="Oid" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationNumber" PropertyName="OperationNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationType" PropertyName="OperationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Password" PropertyName="Password" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="PlateNumber" PropertyName="PlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="RoroPlateNumber" PropertyName="RoroPlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="SupplierContractNotes" PropertyName="SupplierContractNotes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransitVesselVoyageNo" PropertyName="TransitVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransportationType" PropertyName="TransportationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="VehiclePlateNumber" PropertyName="VehiclePlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Bid" PropertyName="Bid" Width="70" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="FolderType" PropertyName="FolderType" Width="70" Index="1" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomOffice" PropertyName="DepartureCustomOffice" Width="70" Index="2" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomOffice" PropertyName="ArrivalCustomOffice" Width="70" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="ShippingTerm" PropertyName="ShippingTerm" Width="70" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="FreightPaymentType" PropertyName="FreightPaymentType" Width="70" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="IsTransit" PropertyName="IsTransit" Width="70" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="LoadingType" PropertyName="LoadingType" Width="70" Index="7" IsNewNode="True" />
+        <ColumnInfo Id="GoodType" PropertyName="GoodType" Width="70" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="ShippingServiceCode" PropertyName="ShippingServiceCode" Width="70" Index="9" IsNewNode="True" />
+        <ColumnInfo Id="DeclarationType" PropertyName="DeclarationType" Width="70" Index="10" IsNewNode="True" />
+        <ColumnInfo Id="ShipperCompany" PropertyName="ShipperCompany" Width="70" Index="11" IsNewNode="True" />
+        <ColumnInfo Id="ConsigneeCompany" PropertyName="ConsigneeCompany" Width="70" Index="12" IsNewNode="True" />
+        <ColumnInfo Id="ContractCompany" PropertyName="ContractCompany" Width="70" Index="13" IsNewNode="True" />
+        <ColumnInfo Id="NationalShippingCompany" PropertyName="NationalShippingCompany" Width="70" Index="14" IsNewNode="True" />
+        <ColumnInfo Id="ShippingLineCompany" PropertyName="ShippingLineCompany" Width="70" Index="15" IsNewNode="True" />
+        <ColumnInfo Id="ShippingAgencyCompany" PropertyName="ShippingAgencyCompany" Width="70" Index="16" IsNewNode="True" />
+        <ColumnInfo Id="AbroadAgencyCompany" PropertyName="AbroadAgencyCompany" Width="70" Index="17" IsNewNode="True" />
+        <ColumnInfo Id="BillingCompany" PropertyName="BillingCompany" Width="70" Index="18" IsNewNode="True" />
+        <ColumnInfo Id="RezervationCompany" PropertyName="RezervationCompany" Width="70" Index="19" IsNewNode="True" />
+        <ColumnInfo Id="SupplierCompany" PropertyName="SupplierCompany" Width="70" Index="20" IsNewNode="True" />
+        <ColumnInfo Id="OperationDate" PropertyName="OperationDate" Width="70" Index="21" IsNewNode="True" />
+        <ColumnInfo Id="NumberofOriginalFBL" PropertyName="NumberofOriginalFBL" Width="70" Index="22" IsNewNode="True" />
+        <ColumnInfo Id="NumberofCopyFBL" PropertyName="NumberofCopyFBL" Width="70" Index="23" IsNewNode="True" />
+        <ColumnInfo Id="DepartureLocation" PropertyName="DepartureLocation" Width="70" Index="24" IsNewNode="True" />
+        <ColumnInfo Id="LoadingPort" PropertyName="LoadingPort" Width="70" Index="25" IsNewNode="True" />
+        <ColumnInfo Id="TransferLocation" PropertyName="TransferLocation" Width="70" Index="26" IsNewNode="True" />
+        <ColumnInfo Id="LoadingCompany" PropertyName="LoadingCompany" Width="70" Index="27" IsNewNode="True" />
+        <ColumnInfo Id="LoadingDate" PropertyName="LoadingDate" Width="70" Index="28" IsNewNode="True" />
+        <ColumnInfo Id="TransferPort" PropertyName="TransferPort" Width="70" Index="29" IsNewNode="True" />
+        <ColumnInfo Id="TransferDate" PropertyName="TransferDate" Width="70" Index="30" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalLocation" PropertyName="ArrivalLocation" Width="70" Index="31" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryType" PropertyName="DeliveryType" Width="70" Index="32" IsNewNode="True" />
+        <ColumnInfo Id="SupplierPaymentType" PropertyName="SupplierPaymentType" Width="70" Index="33" IsNewNode="True" />
+        <ColumnInfo Id="PaymentType" PropertyName="PaymentType" Width="70" Index="34" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceLocation" PropertyName="AcceptanceLocation" Width="70" Index="35" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryCompany" PropertyName="DeliveryCompany" Width="70" Index="36" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedDepartureDate" PropertyName="EstimatedDepartureDate" Width="70" Index="37" IsNewNode="True" />
+        <ColumnInfo Id="DepartureDate" PropertyName="DepartureDate" Width="70" Index="38" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceDate" PropertyName="AcceptanceDate" Width="70" Index="39" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryDate" PropertyName="DeliveryDate" Width="70" Index="40" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedArrivalDate" PropertyName="EstimatedArrivalDate" Width="70" Index="41" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalDate" PropertyName="ArrivalDate" Width="70" Index="42" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedTransferTime" PropertyName="EstimatedTransferTime" Width="70" Index="43" IsNewNode="True" />
+        <ColumnInfo Id="TransitTime" PropertyName="TransitTime" Width="70" Index="44" IsNewNode="True" />
+        <ColumnInfo Id="CustomerRepresentative" PropertyName="CustomerRepresentative" Width="70" Index="45" IsNewNode="True" />
+        <ColumnInfo Id="SalesRepresentative" PropertyName="SalesRepresentative" Width="70" Index="46" IsNewNode="True" />
+        <ColumnInfo Id="PreCarriageCompany" PropertyName="PreCarriageCompany" Width="70" Index="47" IsNewNode="True" />
+        <ColumnInfo Id="PlaceofReceiptLocation" PropertyName="PlaceofReceiptLocation" Width="70" Index="48" IsNewNode="True" />
+        <ColumnInfo Id="FolderPublishLocation" PropertyName="FolderPublishLocation" Width="70" Index="49" IsNewNode="True" />
+        <ColumnInfo Id="MainVessel" PropertyName="MainVessel" Width="70" Index="50" IsNewNode="True" />
+        <ColumnInfo Id="TransitVessel" PropertyName="TransitVessel" Width="70" Index="51" IsNewNode="True" />
+        <ColumnInfo Id="DischargePort" PropertyName="DischargePort" Width="70" Index="52" IsNewNode="True" />
+        <ColumnInfo Id="NotifyCompany" PropertyName="NotifyCompany" Width="70" Index="53" IsNewNode="True" />
+        <ColumnInfo Id="IsOpen" PropertyName="IsOpen" Width="50" Index="54" IsNewNode="True" />
+        <ColumnInfo Id="IsMissing" PropertyName="IsMissing" Width="50" Index="55" IsNewNode="True" />
+        <ColumnInfo Id="MainTruck" PropertyName="MainTruck" Width="70" Index="56" IsNewNode="True" />
+        <ColumnInfo Id="TransitTruck" PropertyName="TransitTruck" Width="70" Index="57" IsNewNode="True" />
+        <ColumnInfo Id="MainDriver" PropertyName="MainDriver" Width="70" Index="58" IsNewNode="True" />
+        <ColumnInfo Id="TransitDriver" PropertyName="TransitDriver" Width="70" Index="59" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomCompany" PropertyName="DepartureCustomCompany" Width="70" Index="60" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomCompany" PropertyName="ArrivalCustomCompany" Width="70" Index="61" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Position_Railway" ClassName="LYS.Module.BusinessObjects.Position" Caption="Denizyolu" Criteria="[TransportationType] = ##Enum#LYS.Module.BusinessObjects.TransportationTypes,Railway#" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="AtrNo" PropertyName="AtrNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="BookingNo" PropertyName="BookingNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="ContractNo" PropertyName="ContractNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Details" PropertyName="Details" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Ex1" PropertyName="Ex1" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Files" PropertyName="Files" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FolderNumber" PropertyName="FolderNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FreightChargersRatePer" PropertyName="FreightChargersRatePer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraDocVer" PropertyName="InttraDocVer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSı" PropertyName="InttraSı" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSiComm" PropertyName="InttraSiComm" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MainVesselVoyageNo" PropertyName="MainVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MissingInfo" PropertyName="MissingInfo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Notes" PropertyName="Notes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Oid" PropertyName="Oid" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationNumber" PropertyName="OperationNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationType" PropertyName="OperationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Password" PropertyName="Password" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="PlateNumber" PropertyName="PlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="RoroPlateNumber" PropertyName="RoroPlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="SupplierContractNotes" PropertyName="SupplierContractNotes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransitVesselVoyageNo" PropertyName="TransitVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransportationType" PropertyName="TransportationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="VehiclePlateNumber" PropertyName="VehiclePlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Bid" PropertyName="Bid" Width="70" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="FolderType" PropertyName="FolderType" Width="70" Index="1" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomOffice" PropertyName="DepartureCustomOffice" Width="70" Index="2" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomOffice" PropertyName="ArrivalCustomOffice" Width="70" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="ShippingTerm" PropertyName="ShippingTerm" Width="70" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="FreightPaymentType" PropertyName="FreightPaymentType" Width="70" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="IsTransit" PropertyName="IsTransit" Width="70" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="LoadingType" PropertyName="LoadingType" Width="70" Index="7" IsNewNode="True" />
+        <ColumnInfo Id="GoodType" PropertyName="GoodType" Width="70" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="ShippingServiceCode" PropertyName="ShippingServiceCode" Width="70" Index="9" IsNewNode="True" />
+        <ColumnInfo Id="DeclarationType" PropertyName="DeclarationType" Width="70" Index="10" IsNewNode="True" />
+        <ColumnInfo Id="ShipperCompany" PropertyName="ShipperCompany" Width="70" Index="11" IsNewNode="True" />
+        <ColumnInfo Id="ConsigneeCompany" PropertyName="ConsigneeCompany" Width="70" Index="12" IsNewNode="True" />
+        <ColumnInfo Id="ContractCompany" PropertyName="ContractCompany" Width="70" Index="13" IsNewNode="True" />
+        <ColumnInfo Id="NationalShippingCompany" PropertyName="NationalShippingCompany" Width="70" Index="14" IsNewNode="True" />
+        <ColumnInfo Id="ShippingLineCompany" PropertyName="ShippingLineCompany" Width="70" Index="15" IsNewNode="True" />
+        <ColumnInfo Id="ShippingAgencyCompany" PropertyName="ShippingAgencyCompany" Width="70" Index="16" IsNewNode="True" />
+        <ColumnInfo Id="AbroadAgencyCompany" PropertyName="AbroadAgencyCompany" Width="70" Index="17" IsNewNode="True" />
+        <ColumnInfo Id="BillingCompany" PropertyName="BillingCompany" Width="70" Index="18" IsNewNode="True" />
+        <ColumnInfo Id="RezervationCompany" PropertyName="RezervationCompany" Width="70" Index="19" IsNewNode="True" />
+        <ColumnInfo Id="SupplierCompany" PropertyName="SupplierCompany" Width="70" Index="20" IsNewNode="True" />
+        <ColumnInfo Id="OperationDate" PropertyName="OperationDate" Width="70" Index="21" IsNewNode="True" />
+        <ColumnInfo Id="NumberofOriginalFBL" PropertyName="NumberofOriginalFBL" Width="70" Index="22" IsNewNode="True" />
+        <ColumnInfo Id="NumberofCopyFBL" PropertyName="NumberofCopyFBL" Width="70" Index="23" IsNewNode="True" />
+        <ColumnInfo Id="DepartureLocation" PropertyName="DepartureLocation" Width="70" Index="24" IsNewNode="True" />
+        <ColumnInfo Id="LoadingPort" PropertyName="LoadingPort" Width="70" Index="25" IsNewNode="True" />
+        <ColumnInfo Id="TransferLocation" PropertyName="TransferLocation" Width="70" Index="26" IsNewNode="True" />
+        <ColumnInfo Id="LoadingCompany" PropertyName="LoadingCompany" Width="70" Index="27" IsNewNode="True" />
+        <ColumnInfo Id="LoadingDate" PropertyName="LoadingDate" Width="70" Index="28" IsNewNode="True" />
+        <ColumnInfo Id="TransferPort" PropertyName="TransferPort" Width="70" Index="29" IsNewNode="True" />
+        <ColumnInfo Id="TransferDate" PropertyName="TransferDate" Width="70" Index="30" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalLocation" PropertyName="ArrivalLocation" Width="70" Index="31" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryType" PropertyName="DeliveryType" Width="70" Index="32" IsNewNode="True" />
+        <ColumnInfo Id="SupplierPaymentType" PropertyName="SupplierPaymentType" Width="70" Index="33" IsNewNode="True" />
+        <ColumnInfo Id="PaymentType" PropertyName="PaymentType" Width="70" Index="34" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceLocation" PropertyName="AcceptanceLocation" Width="70" Index="35" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryCompany" PropertyName="DeliveryCompany" Width="70" Index="36" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedDepartureDate" PropertyName="EstimatedDepartureDate" Width="70" Index="37" IsNewNode="True" />
+        <ColumnInfo Id="DepartureDate" PropertyName="DepartureDate" Width="70" Index="38" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceDate" PropertyName="AcceptanceDate" Width="70" Index="39" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryDate" PropertyName="DeliveryDate" Width="70" Index="40" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedArrivalDate" PropertyName="EstimatedArrivalDate" Width="70" Index="41" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalDate" PropertyName="ArrivalDate" Width="70" Index="42" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedTransferTime" PropertyName="EstimatedTransferTime" Width="70" Index="43" IsNewNode="True" />
+        <ColumnInfo Id="TransitTime" PropertyName="TransitTime" Width="70" Index="44" IsNewNode="True" />
+        <ColumnInfo Id="CustomerRepresentative" PropertyName="CustomerRepresentative" Width="70" Index="45" IsNewNode="True" />
+        <ColumnInfo Id="SalesRepresentative" PropertyName="SalesRepresentative" Width="70" Index="46" IsNewNode="True" />
+        <ColumnInfo Id="PreCarriageCompany" PropertyName="PreCarriageCompany" Width="70" Index="47" IsNewNode="True" />
+        <ColumnInfo Id="PlaceofReceiptLocation" PropertyName="PlaceofReceiptLocation" Width="70" Index="48" IsNewNode="True" />
+        <ColumnInfo Id="FolderPublishLocation" PropertyName="FolderPublishLocation" Width="70" Index="49" IsNewNode="True" />
+        <ColumnInfo Id="MainVessel" PropertyName="MainVessel" Width="70" Index="50" IsNewNode="True" />
+        <ColumnInfo Id="TransitVessel" PropertyName="TransitVessel" Width="70" Index="51" IsNewNode="True" />
+        <ColumnInfo Id="DischargePort" PropertyName="DischargePort" Width="70" Index="52" IsNewNode="True" />
+        <ColumnInfo Id="NotifyCompany" PropertyName="NotifyCompany" Width="70" Index="53" IsNewNode="True" />
+        <ColumnInfo Id="IsOpen" PropertyName="IsOpen" Width="50" Index="54" IsNewNode="True" />
+        <ColumnInfo Id="IsMissing" PropertyName="IsMissing" Width="50" Index="55" IsNewNode="True" />
+        <ColumnInfo Id="MainTruck" PropertyName="MainTruck" Width="70" Index="56" IsNewNode="True" />
+        <ColumnInfo Id="TransitTruck" PropertyName="TransitTruck" Width="70" Index="57" IsNewNode="True" />
+        <ColumnInfo Id="MainDriver" PropertyName="MainDriver" Width="70" Index="58" IsNewNode="True" />
+        <ColumnInfo Id="TransitDriver" PropertyName="TransitDriver" Width="70" Index="59" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomCompany" PropertyName="DepartureCustomCompany" Width="70" Index="60" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomCompany" PropertyName="ArrivalCustomCompany" Width="70" Index="61" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Position_Seaway" ClassName="LYS.Module.BusinessObjects.Position" Caption="Denizyolu" Criteria="[TransportationType] = ##Enum#LYS.Module.BusinessObjects.TransportationTypes,SeaWay#" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="AtrNo" PropertyName="AtrNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="BookingNo" PropertyName="BookingNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="ContractNo" PropertyName="ContractNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Details" PropertyName="Details" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Ex1" PropertyName="Ex1" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Files" PropertyName="Files" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FolderNumber" PropertyName="FolderNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FreightChargersRatePer" PropertyName="FreightChargersRatePer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraDocVer" PropertyName="InttraDocVer" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSı" PropertyName="InttraSı" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="InttraSiComm" PropertyName="InttraSiComm" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MainVesselVoyageNo" PropertyName="MainVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MissingInfo" PropertyName="MissingInfo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Notes" PropertyName="Notes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Oid" PropertyName="Oid" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationNumber" PropertyName="OperationNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="OperationType" PropertyName="OperationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Password" PropertyName="Password" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="PlateNumber" PropertyName="PlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="RoroPlateNumber" PropertyName="RoroPlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="SupplierContractNotes" PropertyName="SupplierContractNotes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransitVesselVoyageNo" PropertyName="TransitVesselVoyageNo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TransportationType" PropertyName="TransportationType" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="VehiclePlateNumber" PropertyName="VehiclePlateNumber" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Bid" PropertyName="Bid" Width="70" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="FolderType" PropertyName="FolderType" Width="70" Index="1" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomOffice" PropertyName="DepartureCustomOffice" Width="70" Index="2" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomOffice" PropertyName="ArrivalCustomOffice" Width="70" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="ShippingTerm" PropertyName="ShippingTerm" Width="70" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="FreightPaymentType" PropertyName="FreightPaymentType" Width="70" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="IsTransit" PropertyName="IsTransit" Width="70" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="LoadingType" PropertyName="LoadingType" Width="70" Index="7" IsNewNode="True" />
+        <ColumnInfo Id="GoodType" PropertyName="GoodType" Width="70" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="ShippingServiceCode" PropertyName="ShippingServiceCode" Width="70" Index="9" IsNewNode="True" />
+        <ColumnInfo Id="DeclarationType" PropertyName="DeclarationType" Width="70" Index="10" IsNewNode="True" />
+        <ColumnInfo Id="ShipperCompany" PropertyName="ShipperCompany" Width="70" Index="11" IsNewNode="True" />
+        <ColumnInfo Id="ConsigneeCompany" PropertyName="ConsigneeCompany" Width="70" Index="12" IsNewNode="True" />
+        <ColumnInfo Id="ContractCompany" PropertyName="ContractCompany" Width="70" Index="13" IsNewNode="True" />
+        <ColumnInfo Id="NationalShippingCompany" PropertyName="NationalShippingCompany" Width="70" Index="14" IsNewNode="True" />
+        <ColumnInfo Id="ShippingLineCompany" PropertyName="ShippingLineCompany" Width="70" Index="15" IsNewNode="True" />
+        <ColumnInfo Id="ShippingAgencyCompany" PropertyName="ShippingAgencyCompany" Width="70" Index="16" IsNewNode="True" />
+        <ColumnInfo Id="AbroadAgencyCompany" PropertyName="AbroadAgencyCompany" Width="70" Index="17" IsNewNode="True" />
+        <ColumnInfo Id="BillingCompany" PropertyName="BillingCompany" Width="70" Index="18" IsNewNode="True" />
+        <ColumnInfo Id="RezervationCompany" PropertyName="RezervationCompany" Width="70" Index="19" IsNewNode="True" />
+        <ColumnInfo Id="SupplierCompany" PropertyName="SupplierCompany" Width="70" Index="20" IsNewNode="True" />
+        <ColumnInfo Id="OperationDate" PropertyName="OperationDate" Width="70" Index="21" IsNewNode="True" />
+        <ColumnInfo Id="NumberofOriginalFBL" PropertyName="NumberofOriginalFBL" Width="70" Index="22" IsNewNode="True" />
+        <ColumnInfo Id="NumberofCopyFBL" PropertyName="NumberofCopyFBL" Width="70" Index="23" IsNewNode="True" />
+        <ColumnInfo Id="DepartureLocation" PropertyName="DepartureLocation" Width="70" Index="24" IsNewNode="True" />
+        <ColumnInfo Id="LoadingPort" PropertyName="LoadingPort" Width="70" Index="25" IsNewNode="True" />
+        <ColumnInfo Id="TransferLocation" PropertyName="TransferLocation" Width="70" Index="26" IsNewNode="True" />
+        <ColumnInfo Id="LoadingCompany" PropertyName="LoadingCompany" Width="70" Index="27" IsNewNode="True" />
+        <ColumnInfo Id="LoadingDate" PropertyName="LoadingDate" Width="70" Index="28" IsNewNode="True" />
+        <ColumnInfo Id="TransferPort" PropertyName="TransferPort" Width="70" Index="29" IsNewNode="True" />
+        <ColumnInfo Id="TransferDate" PropertyName="TransferDate" Width="70" Index="30" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalLocation" PropertyName="ArrivalLocation" Width="70" Index="31" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryType" PropertyName="DeliveryType" Width="70" Index="32" IsNewNode="True" />
+        <ColumnInfo Id="SupplierPaymentType" PropertyName="SupplierPaymentType" Width="70" Index="33" IsNewNode="True" />
+        <ColumnInfo Id="PaymentType" PropertyName="PaymentType" Width="70" Index="34" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceLocation" PropertyName="AcceptanceLocation" Width="70" Index="35" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryCompany" PropertyName="DeliveryCompany" Width="70" Index="36" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedDepartureDate" PropertyName="EstimatedDepartureDate" Width="70" Index="37" IsNewNode="True" />
+        <ColumnInfo Id="DepartureDate" PropertyName="DepartureDate" Width="70" Index="38" IsNewNode="True" />
+        <ColumnInfo Id="AcceptanceDate" PropertyName="AcceptanceDate" Width="70" Index="39" IsNewNode="True" />
+        <ColumnInfo Id="DeliveryDate" PropertyName="DeliveryDate" Width="70" Index="40" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedArrivalDate" PropertyName="EstimatedArrivalDate" Width="70" Index="41" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalDate" PropertyName="ArrivalDate" Width="70" Index="42" IsNewNode="True" />
+        <ColumnInfo Id="EstimatedTransferTime" PropertyName="EstimatedTransferTime" Width="70" Index="43" IsNewNode="True" />
+        <ColumnInfo Id="TransitTime" PropertyName="TransitTime" Width="70" Index="44" IsNewNode="True" />
+        <ColumnInfo Id="CustomerRepresentative" PropertyName="CustomerRepresentative" Width="70" Index="45" IsNewNode="True" />
+        <ColumnInfo Id="SalesRepresentative" PropertyName="SalesRepresentative" Width="70" Index="46" IsNewNode="True" />
+        <ColumnInfo Id="PreCarriageCompany" PropertyName="PreCarriageCompany" Width="70" Index="47" IsNewNode="True" />
+        <ColumnInfo Id="PlaceofReceiptLocation" PropertyName="PlaceofReceiptLocation" Width="70" Index="48" IsNewNode="True" />
+        <ColumnInfo Id="FolderPublishLocation" PropertyName="FolderPublishLocation" Width="70" Index="49" IsNewNode="True" />
+        <ColumnInfo Id="MainVessel" PropertyName="MainVessel" Width="70" Index="50" IsNewNode="True" />
+        <ColumnInfo Id="TransitVessel" PropertyName="TransitVessel" Width="70" Index="51" IsNewNode="True" />
+        <ColumnInfo Id="DischargePort" PropertyName="DischargePort" Width="70" Index="52" IsNewNode="True" />
+        <ColumnInfo Id="NotifyCompany" PropertyName="NotifyCompany" Width="70" Index="53" IsNewNode="True" />
+        <ColumnInfo Id="IsOpen" PropertyName="IsOpen" Width="50" Index="54" IsNewNode="True" />
+        <ColumnInfo Id="IsMissing" PropertyName="IsMissing" Width="50" Index="55" IsNewNode="True" />
+        <ColumnInfo Id="MainTruck" PropertyName="MainTruck" Width="70" Index="56" IsNewNode="True" />
+        <ColumnInfo Id="TransitTruck" PropertyName="TransitTruck" Width="70" Index="57" IsNewNode="True" />
+        <ColumnInfo Id="MainDriver" PropertyName="MainDriver" Width="70" Index="58" IsNewNode="True" />
+        <ColumnInfo Id="TransitDriver" PropertyName="TransitDriver" Width="70" Index="59" IsNewNode="True" />
+        <ColumnInfo Id="DepartureCustomCompany" PropertyName="DepartureCustomCompany" Width="70" Index="60" IsNewNode="True" />
+        <ColumnInfo Id="ArrivalCustomCompany" PropertyName="ArrivalCustomCompany" Width="70" Index="61" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
